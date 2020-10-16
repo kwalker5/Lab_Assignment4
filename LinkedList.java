@@ -114,7 +114,7 @@ public class LinkedList<E> {
         return head;//return the head
     }
 
-    void printList(Node<Integer> node)//function to print the linkedlist
+    void printList(Node<E> node)//function to print the linkedlist
     {
         while (node != null) {//while the node is not null
             System.out.print(node.data + " ");//print the node data and a space

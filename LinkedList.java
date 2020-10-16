@@ -1,5 +1,5 @@
 //Kate Walker 
-public class LinkedList<E extends Comparable<E>> {
+public class LinkedList<E> {
     static class Node<E> {//Node class
         public E data;//section for data
         public Node<E> next;//store next node
